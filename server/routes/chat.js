@@ -1,5 +1,6 @@
 import express from "express";
 import { generateResponse } from "../services/gemini.js";
+import { handleIntent } from "../services/intentRouter.js";
 
 const router = express.Router();
 
@@ -14,6 +15,19 @@ router.post("/", async (req, res) => {
       });
     }
 
+    // STEP 1: Check if it's a known stadium intent
+    const intent = handleIntent(message);
+
+    if (intent.handled) {
+      return res.json({
+        success: true,
+        data: {
+          reply: intent.reply,
+        },
+      });
+    }
+
+    // STEP 2: Otherwise ask Gemini
     const reply = await generateResponse(message);
 
     res.json({

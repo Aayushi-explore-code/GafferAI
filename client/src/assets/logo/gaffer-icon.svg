@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <!-- Simplified Football Structure -->
+  <circle cx="50" cy="50" r="26" fill="none" stroke="#FFFFFF" stroke-width="3.5" />
+  <polygon points="50.0,38.0 61.4,46.3 57.0,59.7 43.0,59.7 38.6,46.3" fill="none" stroke="#D4AF37" stroke-width="3" stroke-linejoin="round"/>
+  <line x1="50.0" y1="38.0" x2="50.0" y2="24.0" stroke="#FFFFFF" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="61.4" y1="46.3" x2="74.7" y2="42.0" stroke="#FFFFFF" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="57.0" y1="59.7" x2="65.3" y2="71.0" stroke="#FFFFFF" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="43.0" y1="59.7" x2="34.7" y2="71.0" stroke="#FFFFFF" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="38.6" y1="46.3" x2="25.3" y2="42.0" stroke="#FFFFFF" stroke-width="2.5" stroke-linecap="round"/>
+
+  <!-- 8 Primary AI Nodes -->
+  <line x1="50" y1="17" x2="50" y2="7" stroke="#D4AF37" stroke-width="3" stroke-linecap="round"/><circle cx="50" cy="7" r="3" fill="#D4AF37"/>
+  <line x1="50" y1="83" x2="50" y2="93" stroke="#D4AF37" stroke-width="3" stroke-linecap="round"/><circle cx="50" cy="93" r="3" fill="#D4AF37"/>
+  <line x1="83" y1="50" x2="93" y2="50" stroke="#D4AF37" stroke-width="3" stroke-linecap="round"/><circle cx="93" cy="50" r="3" fill="#D4AF37"/>
+  <line x1="17" y1="50" x2="7" y2="50" stroke="#D4AF37" stroke-width="3" stroke-linecap="round"/><circle cx="7" cy="50" r="3" fill="#D4AF37"/>
+  
+  <line x1="73.3" y1="26.7" x2="80.4" y2="19.6" stroke="#D4AF37" stroke-width="2.5" stroke-linecap="round"/><circle cx="80.4" cy="19.6" r="2.5" fill="#D4AF37"/>
+  <line x1="73.3" y1="73.3" x2="80.4" y2="80.4" stroke="#D4AF37" stroke-width="2.5" stroke-linecap="round"/><circle cx="80.4" cy="80.4" r="2.5" fill="#D4AF37"/>
+  <line x1="26.7" y1="73.3" x2="19.6" y2="80.4" stroke="#D4AF37" stroke-width="2.5" stroke-linecap="round"/><circle cx="19.6" cy="80.4" r="2.5" fill="#D4AF37"/>
+  <line x1="26.7" y1="26.7" x2="19.6" y2="19.6" stroke="#D4AF37" stroke-width="2.5" stroke-linecap="round"/><circle cx="19.6" cy="19.6" r="2.5" fill="#D4AF37"/>
+</svg>

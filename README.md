@@ -18,3 +18,11 @@ Football fans.
 - Express
 - Gemini
 - Vite
+
+# Gaffer AI ⚽
+
+🚀 Live Demo:
+https://gaffer-ai-xi.vercel.app
+
+Backend API:
+https://gafferai.onrender.com
